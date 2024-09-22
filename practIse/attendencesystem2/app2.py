@@ -1,6 +1,6 @@
 from tkinter import *
-from addstudent import *
-from showgallery import *
+from addstudent2 import *
+from showgallery2 import *
 
 root = Tk()
 root.geometry('400x400')
@@ -11,7 +11,7 @@ def getstudent():
     Student()
 
 def showstudent():
-    DisplayGallery()
+    DisplayGallery2()
 
 
 addimg = PhotoImage(file='attendencesystem/app-images/add-user.png')
